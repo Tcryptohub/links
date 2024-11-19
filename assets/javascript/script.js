@@ -13,7 +13,7 @@ const initialColors = {
 }
 
 const lightMode = {
-    bg: "#F9EEFD",
+    bg: "#fafafa",
     textColor: "#2F2D30"
 }
 

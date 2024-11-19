@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
 :root {
-  --main-color: #7A3695;
-  --bg:  #2F2D30; 
+  --main-color: #363f95;
+  --bg:  #7e5d92; 
   --text-color: #F9EEFD; 
 }
 
@@ -70,13 +70,13 @@ a svg.icons-btn {
     align-items: center;
     justify-content: center;
 
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     text-align: center;
     letter-spacing: 0.15em;
     color: var(--text-color);
 
-    width: 200px;
+    width: 400px;
 
     margin: 25px 0;
     padding: 15px 25px;
