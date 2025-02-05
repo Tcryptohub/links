@@ -31,3 +31,23 @@ const changeColors = (colors) => {
 checkbox.addEventListener("change", ({target}) => {
     target.checked ? changeColors(lightMode) : changeColors(initialColors)
 })
+
+
+// Função para alternar as abas
+function openTab(tabName) {
+    // Esconde todas as abas
+    var tabs = document.querySelectorAll('.tab-content');
+    tabs.forEach(function(tab) {
+        tab.classList.remove('active');
+    });
+
+    // Remove a classe "active" de todas as abas
+    var buttons = document.querySelectorAll('.tab-button');
+    buttons.forEach(function(button) {
+        button.classList.remove('active');
+    });
+
+    // Mostra a aba selecionada
+    document.getElementById(tabName).classList.add('active');
+    document.querySelector('.tab-button[onclick="openTab(\'' + tabName + '\')"]').classList.add('active');
+}

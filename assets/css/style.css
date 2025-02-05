@@ -187,3 +187,26 @@ svg.icon-mode {
 svg.icon-mode-2 {
   margin-left: 8px;
 }
+
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+}
+.tabs button {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.tabs button.active {
+    background-color: #8d6de4;
+    color: white;
+}
+.tab-content {
+    display: none;
+}
+.tab-content.active {
+    display: block;
+}
